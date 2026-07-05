@@ -28,24 +28,16 @@
 **W1 术语裁决（Wave 2/3 写手必遵，已入 83-术语表）**：①B3=模式升维（wiki 旧名"模式升级"禁用）②C2 正典六层，03a"版本层"为索引层子机制 ③C3 正典六子图，03a 八模块见 83 附注（Wave 3 写 33-C3 照此收纳）④C4 正典七链，Skill蒸馏链=回写链子型 ⑤四器官"灵魂/记忆/判断/手脚"只可作括号注释。
 **信源缺口**：千日窗口"三种死法"未在 soul extracts 展开（25 篇缺口→找 startup map 或标🟡）；"16控制点"无定义清单（24-B4 标🟡）；"信息五层"完整定义缺（仅 04c 尾部 OSA 三层）；K型社会取自 wiki 原力财富域（🟡）。
 
-### Wave 2
-- [ ] 10-yuanli-asset/10-卷首-原力资产.md (W2)
-- [ ] 10-yuanli-asset/11-A1-发现母体.md (W2)
-- [ ] 10-yuanli-asset/12-A2-回到母体.md (W2)
-- [ ] 10-yuanli-asset/13-A3-获得原力.md (W2)
-- [ ] 10-yuanli-asset/14-A4-显化原力.md (W2)
-- [ ] 10-yuanli-asset/15-深潜-母体反例识别与修行路径.md (W2)
-- [ ] 10-yuanli-asset/16-深潜-四大资产与财富三观.md (W2)
-- [ ] 10-yuanli-asset/17-深潜-六阶通关链.md (W2)
-- [ ] 20-yuanli-venture/20-卷首-原力创业.md (W3)
-- [ ] 20-yuanli-venture/21-B1-原力借势.md (W3)
-- [ ] 20-yuanli-venture/22-B2-品类独创.md (W3)
-- [ ] 20-yuanli-venture/23-B3-模式升维.md (W3)
-- [ ] 20-yuanli-venture/24-B4-壁垒锁定.md (W3)
-- [ ] 20-yuanli-venture/25-深潜-康波元周期与千日窗口.md (W3)
-- [ ] 20-yuanli-venture/26-深潜-微入口三切面与PEST落地.md (W3)
-- [ ] 20-yuanli-venture/27-深潜-单位经济与复利飞轮.md (W3)
-- [ ] 20-yuanli-venture/28-深潜-价值主张画布十步法.md (W3)
+### Wave 2 ✅ 2026-07-05
+- [x] 10-yuanli-asset/ 8篇 (W2·合规验收通过·threads/rewrites-to 齐备)
+- [x] 20-yuanli-venture/ 9篇 (W3·术语红线零命中)
+
+**Wave 2 执行发现（后续波次必读）**：
+- **Get笔记工具坑**：get_note 的 19 位 note_id 在 JSON 序列化中被浮点截断→"笔记不存在"；**兜底 = recall 检索**（W2/W3 全部命中）。W4/W6 直接优先用 recall。
+- **"三种死法"真源已找到**：`wiki/_factory/yuanli-startup-greenbook-v0.2/volume-1-zonggang.md` 第6章（灵魂干涸死/品类糊涂死/模式崩溃死）🟢；旧四关命名映射🟡。
+- **待 Wave 4 收录 83-术语表的新裁决**：四大资产命名分歧（soul 01a"精神/系统/人际/变革" vs wiki"精神力/创新力/关系力/系统力"→16篇以课程源稿为正名+括注变体）；"微入口三切面"=02a B1.3 四要素的收纳（账户+预算迁移合并）🟡。
+- **品类独创脑科学大表表体在 worktree 丢失**（只剩标题骨架），22篇以 wiki 综合页三触发条件为据标🟡。
+- 前向链接已指向 50-spine/52、53（W5 必须按此文件名落盘）。
 
 ### Wave 3
 - [ ] 30-yuanli-os/30-卷首-原力OS.md (W4)
