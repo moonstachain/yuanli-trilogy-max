@@ -6,7 +6,7 @@
     "cover_size": "2100x900",
     "interior_size": "1600x900",
     "font": "STHeiti",
-    "note": "Generated without text, then exact Chinese title/captions were overlaid locally."
+    "note": "Generated without text, then exact Chinese title/captions/module labels were overlaid locally."
   },
   "prompts": [
     {
@@ -30,9 +30,19 @@
       "prompt": "Use case: stylized-concept\\nAsset type: article interior illustration, 16:9\\nPrimary request: Orange Line Illustration style for the evidence chain that reveals the hidden matrix. No text in the generated image; caption will be added later.\\nStyle/medium: New Yorker magazine style editorial illustration, single-panel conceptual metaphor. Minimalist thin black ink line drawing on pure white background, generous negative space, no shading, no gradients.\\nRecurring IP character: 小橙, a tiny minimalist line-drawn figure. Circle head outline only, two small black dot eyes, no mouth. Narrow rectangular body outline only. Thin wobbly stick arms and legs. One small solid orange dot #F97316 on the chest like a badge; this is the ONLY orange accent and the ONLY color in the entire image.\\nScene: a very large clean table fills the lower half. On the table are four simple evidence objects with no labels: a small magnifying glass over an unusual tiny detail, a battery with a rising line, a rough crumpled answer sheet with 小橙 marking it with a tiny pencil, and two tiny hands receiving a small object. A tiny 小橙 stands at the center of the table connecting the four objects with one continuous thin black thread. Beneath the connected points, a hidden root-like pattern begins to appear.\\nComposition: 16:9 horizontal, top-down / slight side view, four evidence objects arranged around a big empty center, 小橙 tiny and central, at least 45% white space. The thread creates a quiet evidence chain, not a busy diagram.\\nColor use: black thin ink lines for all line art; pure white background; orange #F97316 only on 小橙's chest dot, nowhere else.\\nConstraints: no text, no letters, no numbers, no labels, no watermark. One idea only: evidence first, matrix appears second. No cute cartoon, no PPT diagram, no shading, no gradients, no fills except the small orange chest dot."
     },
     {
-      "slug": "04-five-gates-writeback",
-      "asset_path": "assets/orange-line/10-yuanli-asset/11-A1/04-five-gates-writeback.png",
-      "prompt": "Use case: stylized-concept\\nAsset type: article interior illustration, 16:9\\nPrimary request: Orange Line Illustration style for five gates that validate a matrix candidate and write it back into the operating system. No text in the generated image; caption will be added later.\\nStyle/medium: New Yorker magazine style editorial illustration, single-panel conceptual metaphor. Minimalist thin black ink line drawing on pure white background, generous negative space, no shading, no gradients.\\nRecurring IP character: 小橙, a tiny minimalist line-drawn figure. Circle head outline only, two small black dot eyes, no mouth. Narrow rectangular body outline only. Thin wobbly stick arms and legs. One small solid orange dot #F97316 on the chest like a badge; this is the ONLY orange accent and the ONLY color in the entire image.\\nScene: five enormous simple gate frames stand in a gentle row from left to right, each gate is just a clean black-line arch with a tiny check mark shape but no labels. A tiny 小橙 carefully carries a small root-shaped seed through the final gate. Beyond the final gate, the seed is being planted into two very simple large open folders / repositories, one like a parchment card and one like a brain-shaped archive, both black-line only.\\nComposition: 16:9 horizontal, plain side view, five large gates create scale contrast, 小橙 tiny near final gate, two destination repositories on far right. Large white space above and around. Witty, restrained, intelligent.\\nColor use: black thin ink lines for all line art; pure white background; orange #F97316 only on 小橙's chest dot, nowhere else.\\nConstraints: no text, no letters, no numbers, no labels, no watermark. One idea: pass five gates, write the candidate back into system memory. No cute cartoon, no PPT diagram, no shading, no gradients, no fills except the small orange chest dot."
+      "slug": "04-six-modules",
+      "asset_path": "assets/orange-line/10-yuanli-asset/11-A1/04-six-modules.png",
+      "prompt": "Use case: stylized-concept\nAsset type: article interior illustration, 16:9\nPrimary request: Orange Line Illustration style for the six atomic modules of A1. No text in generated image; exact Chinese module labels are overlaid later.\nScene: six oversized trays on a long laboratory conveyor: homogenized skills being swept away, unusual attention, high-energy battery, disliked low-quality answer, repeated gifts from others, and final root/theme under glass. Tiny Xiao Orange turns the crank. Pure white background, thin black lines, only the orange chest dot."
+    },
+    {
+      "slug": "05-five-tests",
+      "asset_path": "assets/orange-line/10-yuanli-asset/11-A1/05-five-tests.png",
+      "prompt": "Use case: stylized-concept\nAsset type: article interior illustration, 16:9\nPrimary request: Orange Line Illustration style for the five validation standards. No text in generated image; exact Chinese criteria labels are overlaid later.\nScene: tiny Xiao Orange carries a root candidate through five oversized inspection gates: long calendar arc, multi-tool box, branching past paths, generator wheel producing cards, and an AI mirror that cannot copy the root. Pure white background, thin black lines, only the orange chest dot."
+    },
+    {
+      "slug": "06-system-writeback",
+      "asset_path": "assets/orange-line/10-yuanli-asset/11-A1/06-system-writeback.png",
+      "prompt": "Use case: stylized-concept\nAsset type: article interior illustration, 16:9\nPrimary request: Orange Line Illustration style for writing the discovered matrix back into the personal OS and knowledge system. No text in generated image; caption is overlaid later.\nScene: a root system is guided by tiny Xiao Orange through a funnel into a huge knowledge cabinet, producing connected blank cards and future judgment infrastructure. Pure white background, thin black lines, only the orange chest dot."
     }
   ]
 }

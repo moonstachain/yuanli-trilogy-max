@@ -42,11 +42,29 @@
     },
     {
       "article_path": "10-yuanli-asset/11-A1-发现母体.md",
-      "asset_path": "assets/orange-line/10-yuanli-asset/11-A1/04-five-gates-writeback.png",
+      "asset_path": "assets/orange-line/10-yuanli-asset/11-A1/04-six-modules.png",
       "kind": "interior",
-      "prompt_slug": "04-five-gates-writeback",
-      "title": "五门回写",
-      "caption": "候选过五道门，再写回文脉与大脑。",
+      "prompt_slug": "04-six-modules",
+      "title": "六个原子模块",
+      "caption": "先做排除，再从四路信号取证，最后让母题浮现。",
+      "dimensions": "1600x900"
+    },
+    {
+      "article_path": "10-yuanli-asset/11-A1-发现母体.md",
+      "asset_path": "assets/orange-line/10-yuanli-asset/11-A1/05-five-tests.png",
+      "kind": "interior",
+      "prompt_slug": "05-five-tests",
+      "title": "五道判断标准",
+      "caption": "候选母体要能经得起五道验收。",
+      "dimensions": "1600x900"
+    },
+    {
+      "article_path": "10-yuanli-asset/11-A1-发现母体.md",
+      "asset_path": "assets/orange-line/10-yuanli-asset/11-A1/06-system-writeback.png",
+      "kind": "interior",
+      "prompt_slug": "06-system-writeback",
+      "title": "母体写回系统",
+      "caption": "母体写回系统，成为未来判断的第一行依据。",
       "dimensions": "1600x900"
     }
   ]
