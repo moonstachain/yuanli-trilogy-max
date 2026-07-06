@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "style": "orange-line-illustration/xiao-orange",
+  "generated_at": "2026-07-06",
+  "source_branch": "narrative-2.0-pilot",
+  "items": [
+    {
+      "article_path": "10-yuanli-asset/11-A1-发现母体.md",
+      "asset_path": "assets/orange-line/10-yuanli-asset/11-A1/00-cover.png",
+      "kind": "cover",
+      "prompt_slug": "00-cover",
+      "title": "A1 · 发现母体",
+      "caption": "从被清算的能力里，认出那个生成你的结构",
+      "dimensions": "2100x900"
+    },
+    {
+      "article_path": "10-yuanli-asset/11-A1-发现母体.md",
+      "asset_path": "assets/orange-line/10-yuanli-asset/11-A1/01-resume-clearance.png",
+      "kind": "interior",
+      "prompt_slug": "01-resume-clearance",
+      "title": "简历清算",
+      "caption": "他从没为「还剩什么」交过证据。",
+      "dimensions": "1600x900"
+    },
+    {
+      "article_path": "10-yuanli-asset/11-A1-发现母体.md",
+      "asset_path": "assets/orange-line/10-yuanli-asset/11-A1/02-six-century-machine.png",
+      "kind": "interior",
+      "prompt_slug": "02-six-century-machine",
+      "title": "六百年的清算机器",
+      "caption": "稀缺被每一轮技术推向源头。",
+      "dimensions": "1600x900"
+    },
+    {
+      "article_path": "10-yuanli-asset/11-A1-发现母体.md",
+      "asset_path": "assets/orange-line/10-yuanli-asset/11-A1/03-evidence-chain.png",
+      "kind": "interior",
+      "prompt_slug": "03-evidence-chain",
+      "title": "证据链",
+      "caption": "母体不接受自我申报，只接受证据。",
+      "dimensions": "1600x900"
+    },
+    {
+      "article_path": "10-yuanli-asset/11-A1-发现母体.md",
+      "asset_path": "assets/orange-line/10-yuanli-asset/11-A1/04-five-gates-writeback.png",
+      "kind": "interior",
+      "prompt_slug": "04-five-gates-writeback",
+      "title": "五门回写",
+      "caption": "候选过五道门，再写回文脉与大脑。",
+      "dimensions": "1600x900"
+    }
+  ]
+}
