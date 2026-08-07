@@ -3,7 +3,7 @@ title: A轴生成脊柱·跨仓同步回执 v1
 module: source-receipt
 layer: sources
 type: governance-receipt
-status: proposed
+status: ready_for_public_merge
 observed_at: "2026-08-07"
 ---
 
@@ -11,25 +11,25 @@ observed_at: "2026-08-07"
 
 ## 1. 目的
 
-记录 `yuanli-trilogy-max` 本轮公共叙事更新究竟消费了哪个上游候选、哪些内容已写入、哪些事实仍未建立，防止公共叙事仓反向成为正典源。
+记录 `yuanli-trilogy-max` 本轮公共叙事更新消费的上游 Soul 正典、实际同步范围与仍未建立的现实状态，防止公共叙事仓反向成为正典源。
 
-## 2. 上游 Soul 堆叠 PR
+## 2. 上游 Soul 已按顺序合并
 
-截至 2026-08-07，本轮上游仍是 **Draft / unmerged**：
+截至 2026-08-07，三层 Soul PR 均已正式合并到 `main`：
 
-| 顺序 | Soul PR | 作用 | 状态 |
-|---|---|---|---|
-| PR-1 | `moonstachain/yuanli-strategy-soul#459` | 冻结 A 轴正典：母体第一因、资产终态、四个第一性问题、四个教学动作 | Draft / unmerged |
-| PR-2 | `moonstachain/yuanli-strategy-soul#460` | A1-A4 contracts / Schema / golden queries / drift CI | Draft / unmerged |
-| PR-3 | `moonstachain/yuanli-strategy-soul#461` | 教材、Teaching-ready、投影准备与 B4 四权漂移净化 | Draft / unmerged |
+| 顺序 | Soul PR | 作用 | Merge commit | 状态 |
+|---|---|---|---|---|
+| PR-1 | `moonstachain/yuanli-strategy-soul#459` | 冻结 A 轴正典：母体第一因、资产终态、四个第一性问题、四个教学动作 | `8a3fec26a7a9428577cbdb171ba4b2d4eab8f78e` | MERGED |
+| PR-2 | `moonstachain/yuanli-strategy-soul#460` | A1-A4 contracts / Schema / golden queries / drift CI | `7055adee537dd535c8f85f4a5aaf6fb76726150c` | MERGED |
+| PR-3 | `moonstachain/yuanli-strategy-soul#461` | 教材、Teaching-ready、投影准备与 B4 四权漂移净化 | `ac61e755fbe3722e1d3278fadc8e146fe8fddacb` | MERGED |
 
-因此本仓当前只能宣称：
+因此本仓当前可以诚实宣称：
 
-> **已完成对上游候选正典的公共叙事蒸馏提案。**
+> **本轮公共叙事正在蒸馏已经合并的 Soul A 轴正典。**
 
-不得宣称：
+但仍不得宣称：
 
-> Soul 已正式合并或发布本轮新正典。
+> `yuanli-trilogy-max` 自身拥有原力战略概念法权。
 
 ## 3. 本仓实际同步文件
 
@@ -48,7 +48,7 @@ README.md
 
 没有新增平行 A1-A4 文件，55 篇主结构不因本轮同步扩容。
 
-## 4. 本轮冻结的公共表达
+## 4. 本轮公共表达
 
 ```text
 A1 发现母体 · 找源
@@ -75,7 +75,7 @@ A4 显化原力 · 证源
 
 ## 5. B4 同步净化
 
-本轮公共仓同时清理了高可见度旧“六层壁垒”表达。
+本轮公共仓清理了高可见度旧“六层壁垒”表达。
 
 唯一有效的壁垒分类：
 
@@ -96,24 +96,33 @@ A4 显化原力 · 证源
 ## 6. 诚实状态
 
 ```yaml
-upstream_soul_pr_459: DRAFT_UNMERGED
-upstream_soul_pr_460: DRAFT_UNMERGED
-upstream_soul_pr_461: DRAFT_UNMERGED
+upstream_soul_pr_459: MERGED
+upstream_soul_pr_460: MERGED
+upstream_soul_pr_461: MERGED
+upstream_soul_tip_for_this_sync: ac61e755fbe3722e1d3278fadc8e146fe8fddacb
 public_narrative_files: UPDATED_ON_BRANCH
 public_canon_authority: NONE
 live_reader_validation: NOT_ESTABLISHED
 market_outcome: NOT_ESTABLISHED
 feishu_projection: NOT_RUN
 compounding: NOT_PROVEN
-publication_readiness: BLOCKED_PENDING_UPSTREAM_MERGE_AND_REVIEW
+publication_readiness: READY_FOR_PUBLIC_NARRATIVE_MERGE
 ```
 
-## 7. 合并门
+解释：
 
-本 PR 合并前至少确认：
+- Soul 正典已经完成 Git 层合并，不等于 A1 真实试读 / 课堂小样已发生；相关状态仍以 Soul 中的 `Deferred` 为准。
+- 公共文章完成不等于市场 Outcome。
+- Feishu 确定性图谱重生成与实际写入仍未在本任务中执行，因此保持 `NOT_RUN`。
+- 本仓仍是公开叙事投影，不取得方法论正典法权。
 
-1. Soul #459/#460/#461 的最终合并内容没有改变四个第一性问题与层级边界；
-2. 若 Soul 合并 SHA 与本回执观察的候选不同，先更新本仓来源说明再合并；
-3. 公共仓不得把 `candidate` 语言改成“已冻结为 Soul Canon”，除非上游确已 merge；
+## 7. 公共仓合并门
+
+本 PR 合并前确认：
+
+1. Soul #459/#460/#461 均已 merge，且四个第一性问题与层级边界未发生后续冲突；
+2. 本仓 Source Receipt 已记录三个精确 merge commit；
+3. 公共仓继续保持 `public_canon_authority: NONE`；
 4. 不因公共文章完成，提升任何 A1-A4 live validation / Outcome；
-5. B4 继续保持四大控制权，不恢复六类并列表达。
+5. B4 继续保持四大控制权，不恢复六类并列表达；
+6. 本仓 A-axis narrative CI 全绿后，方可合并到 `master`。
