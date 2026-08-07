@@ -1,0 +1,29 @@
+name: A-axis Narrative Check
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "00-canon/06-十二模块总图.md"
+      - "10-yuanli-asset/**"
+      - "20-yuanli-venture/24-B4-壁垒锁定.md"
+      - "50-spine/53-自诊-你卡在哪一关.md"
+      - "80-governance/83-术语表.md"
+      - "90-sources/A-AXIS-SYNC-RECEIPT-v1.md"
+      - "tests/test_a_axis_narrative.py"
+      - ".github/workflows/a-axis-narrative-check.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  narrative-drift-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run A-axis public narrative guardrails
+        run: python -m unittest -v tests/test_a_axis_narrative.py
