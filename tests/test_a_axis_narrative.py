@@ -11,6 +11,12 @@ EXPECTED = {
     "A4": ("14-A4-显化原力.md", "证源", "这种原力进入真实世界后，是否真正创造价值？"),
 }
 
+SOUL_MERGES = {
+    "459": "8a3fec26a7a9428577cbdb171ba4b2d4eab8f78e",
+    "460": "7055adee537dd535c8f85f4a5aaf6fb76726150c",
+    "461": "ac61e755fbe3722e1d3278fadc8e146fe8fddacb",
+}
+
 
 def read(path):
     return (ROOT / path).read_text(encoding="utf-8")
@@ -56,11 +62,17 @@ class AAxisNarrativeGuard(unittest.TestCase):
         self.assertNotIn("按六层壁垒排查", text)
         self.assertIn("不要再用“六层壁垒”分诊", text)
 
-    def test_upstream_status_is_honestly_unmerged(self):
+    def test_upstream_status_records_merged_soul_and_no_public_authority(self):
         text = read("90-sources/A-AXIS-SYNC-RECEIPT-v1.md")
-        self.assertIn("DRAFT_UNMERGED", text)
+        for pr, sha in SOUL_MERGES.items():
+            self.assertIn(f"upstream_soul_pr_{pr}: MERGED", text)
+            self.assertIn(sha, text)
+        self.assertIn("upstream_soul_tip_for_this_sync: ac61e755fbe3722e1d3278fadc8e146fe8fddacb", text)
         self.assertIn("public_canon_authority: NONE", text)
-        self.assertIn("publication_readiness: BLOCKED_PENDING_UPSTREAM_MERGE_AND_REVIEW", text)
+        self.assertIn("live_reader_validation: NOT_ESTABLISHED", text)
+        self.assertIn("market_outcome: NOT_ESTABLISHED", text)
+        self.assertIn("feishu_projection: NOT_RUN", text)
+        self.assertIn("publication_readiness: READY_FOR_PUBLIC_NARRATIVE_MERGE", text)
 
 
 if __name__ == "__main__":
