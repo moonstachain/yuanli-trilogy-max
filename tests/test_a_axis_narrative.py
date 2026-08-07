@@ -21,7 +21,9 @@ class AAxisNarrativeGuard(unittest.TestCase):
         text = read("README.md")
         self.assertIn("第一部 · 原力资产", text)
         self.assertNotIn("第一部 · 原力母体", text)
-        self.assertIn("原力母体 = 根", text)
+        self.assertIn("原力母体", text)
+        self.assertIn("第一因", text)
+        self.assertIn("第一部不叫“原力母体”", text)
 
     def test_four_module_articles_have_exact_actions_and_questions(self):
         for module_id, (filename, action, question) in EXPECTED.items():
